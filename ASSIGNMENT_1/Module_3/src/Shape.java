@@ -1,6 +1,6 @@
 class Shape {
     void draw() {
-        System.out.println("Drawing a shape");
+        System.out.println("Drawing shape");
     }
 }
 
@@ -8,7 +8,7 @@ class Circle extends Shape {
 
     @Override
     void draw() {
-        System.out.println("Drawing a Circle");
+        System.out.println("Drawing Circle");
     }
 }
 
@@ -16,7 +16,7 @@ class Rectangle extends Shape {
 
     @Override
     void draw() {
-        System.out.println("Drawing a Rectangle");
+        System.out.println("Drawing  Rectangle");
     }
 }
 class Poly{
@@ -27,4 +27,5 @@ class Poly{
         s1.draw();
         s2.draw();
     }
+
 }
